@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .card-body img {
+        width: 150px;
+        height: auto;
+    }
+
+    .form-signin input[type="email"],
+    .form-signin input[type="password"],
+    .form-signin button[type="submit"] {
+        padding: 0.5rem;
+    }
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+    border-radius: 0.25rem;
+}
+
+.form-control {
+    padding: 0.4rem; /* Kurangi padding agar input lebih kecil */
+    font-size: 0.9rem; /* Kurangi ukuran font */
+    width: 100%; /* Pastikan lebar input tetap menyesuaikan container */
+    border-radius: 0.2rem; /* Kurangi radius sudut jika diinginkan */
+}
+
+.label-disabled {
+    color: #6c757d; /* Warna abu-abu */
+}
